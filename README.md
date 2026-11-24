@@ -110,6 +110,17 @@ Automates Q&A Discussion creation, answering, and marking answers as accepted vi
 
 ---
 
+## Bonus Profile Highlights
+
+In addition to Achievements, you can unlock two free official badges displayed in the **Highlights** section of your GitHub profile:
+
+| Badge | How to Unlock | Cost |
+| :--- | :--- | :---: |
+| **Developer Program Member** | Register in one click at [github.com/developer/register](https://github.com/developer/register) (instant). | Free |
+| **GitHub PRO** | Available for free to students via the [GitHub Student Developer Pack](https://education.github.com/pack) using your school email and enrollment proof (also includes GitHub Copilot Pro). | Free (Students) |
+
+---
+
 ## Good Practices & Rate Limits
 - Always pace API calls and avoid running huge batches on brand-new accounts to stay within GitHub's acceptable use policies.
 - Achievement updates are processed asynchronously by GitHub and may take from a few minutes up to 24 hours to appear on your profile.
