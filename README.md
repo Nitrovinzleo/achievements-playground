@@ -121,6 +121,34 @@ In addition to Achievements, you can unlock two free official badges displayed i
 
 ---
 
+## Retired, Disabled & Internal Badges
+
+For completeness, several other badges exist in GitHub's history or internal staff program and **cannot be earned through normal public activity**:
+
+| Badge | Category | Why It's Unavailable |
+| :--- | :---: | :--- |
+| **Arctic Code Vault Contributor** | Retired | Awarded once for contributing to repositories archived in the 2020 GitHub Archive Program. |
+| **Mars 2020 Contributor** | Retired | Awarded to contributors of open-source repositories used in NASA's 2020 Ingenuity helicopter mission. |
+| **Finishing Touch** | GitHub UI / Staff | Awarded for merged pull requests improving GitHub's own UI quality (Bronze: 4 · Silver: 16 · Gold: 32). |
+| **Proxima Pioneer / Staffshipper / Staffuser** | Internal | Awarded exclusively to GitHub staff members working on the internal Proxima infrastructure. |
+| **Heart On Your Sleeve** | Disabled | Experimental reaction badge (currently disabled and no longer displayed). |
+| **Open Sourcerer** | Disabled | Experimental multi-repo PR badge (currently disabled). |
+
+---
+
+## Troubleshooting & FAQ
+
+- **Why didn't Galaxy Brain unlock when I accepted my own answer?**
+  GitHub ignores self-accepted answers (`answer.author === answerChosenBy`). The discussion author (or another maintainer) must mark **someone else's** reply as the accepted answer. Also note that `github/community` discussions no longer grant achievements.
+- **Why didn't Pair Extraordinaire unlock for the commit author?**
+  For any given commit, GitHub credits **the person listed in the `Co-authored-by:` trailer**, not the primary commit author. Both collaborators need to swap roles across PRs if both want the badge.
+- **Can I customize the skin tone on Quickdraw and Starstruck?**
+  Yes — GitHub automatically matches them to your Emoji Skin Tone setting in [github.com/settings/appearance](https://github.com/settings/appearance).
+- **Why isn't my badge showing up immediately?**
+  Some badges (`Public Sponsor`, `Galaxy Brain`) update within minutes, while others (`Pair Extraordinaire`, `Pull Shark` tier upgrades) are processed asynchronously and can take **up to 24–72 hours**.
+
+---
+
 ## Good Practices & Rate Limits
 - Always pace API calls and avoid running huge batches on brand-new accounts to stay within GitHub's acceptable use policies.
 - Achievement updates are processed asynchronously by GitHub and may take from a few minutes up to 24 hours to appear on your profile.

@@ -121,6 +121,34 @@ En plus des Achievements, vous pouvez débloquer gratuitement deux badges offici
 
 ---
 
+## Badges Retirés, Désactivés & Internes
+
+Pour être exhaustif, d'autres badges existent dans l'historique ou en interne chez GitHub mais **ne peuvent pas être obtenus via une activité publique classique** :
+
+| Badge | Catégorie | Raison |
+| :--- | :---: | :--- |
+| **Arctic Code Vault Contributor** | Retiré | Attribué uniquement pour les dépôts archivés lors du programme 2020. |
+| **Mars 2020 Contributor** | Retiré | Attribué aux contributeurs des dépôts utilisés par l'hélicoptère Ingenuity (mission Mars 2020). |
+| **Finishing Touch** | UI GitHub / Staff | Attribué pour des PRs améliorant directement la qualité de l'interface GitHub (Bronze : 4 · Argent : 16 · Or : 32). |
+| **Proxima Pioneer / Staffshipper / Staffuser** | Interne | Réservés exclusivement aux employés GitHub sur l'infrastructure interne Proxima. |
+| **Heart On Your Sleeve** | Désactivé | Badge expérimental lié aux réactions (actuellement désactivé). |
+| **Open Sourcerer** | Désactivé | Badge expérimental multi-dépôts (actuellement désactivé). |
+
+---
+
+## FAQ & Dépannage
+
+- **Pourquoi Galaxy Brain ne se débloque-t-il pas quand j'accepte ma propre réponse ?**
+  GitHub ignore les réponses auto-validées : la personne qui clique sur *Mark as answer* doit être différente de l'auteur de la réponse. Notez aussi que les discussions de `github/community` ne comptent plus pour les succès.
+- **Pourquoi Pair Extraordinaire ne s'affiche-t-il pas pour l'auteur principal du commit ?**
+  Pour un commit donné, GitHub attribue le badge à la personne citée dans `Co-authored-by:`, pas à l'auteur principal. Il faut inverser les rôles pour que les deux collaborateurs l'obtiennent.
+- **Peut-on changer la couleur de peau sur Quickdraw et Starstruck ?**
+  Oui, directement via votre préférence d'émojis dans [github.com/settings/appearance](https://github.com/settings/appearance).
+- **Pourquoi mon badge n'apparaît-il pas instantanément ?**
+  GitHub calcule certains paliers (`Pair Extraordinaire`, upgrades `Pull Shark`) de façon asynchrone : le délai varie de quelques minutes à **24–72 heures**.
+
+---
+
 ## Bonnes pratiques
 - Respectez toujours les limites de requêtes de l'API GitHub et évitez les rafales sur des comptes nouvellement créés.
 - GitHub actualise les badges de profil de manière asynchrone : l'affichage peut prendre de quelques minutes à 24 heures.
