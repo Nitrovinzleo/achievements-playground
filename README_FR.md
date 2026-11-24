@@ -110,6 +110,17 @@ Automatise la création de discussions Q&A, l'envoi des réponses et la validati
 
 ---
 
+## Badges Bonus (Section Highlights)
+
+En plus des Achievements, vous pouvez débloquer gratuitement deux badges officiels affichés dans la section **Highlights** de votre profil GitHub :
+
+| Badge | Comment le débloquer | Coût |
+| :--- | :--- | :---: |
+| **Developer Program Member** | Inscrivez-vous en un clic sur [github.com/developer/register](https://github.com/developer/register) (instantané). | Gratuit |
+| **GitHub PRO** | Gratuit pour les étudiants via le [GitHub Student Developer Pack](https://education.github.com/pack) avec votre adresse mail scolaire et votre justificatif d'inscription (inclut aussi GitHub Copilot Pro). | Gratuit (Étudiants) |
+
+---
+
 ## Bonnes pratiques
 - Respectez toujours les limites de requêtes de l'API GitHub et évitez les rafales sur des comptes nouvellement créés.
 - GitHub actualise les badges de profil de manière asynchrone : l'affichage peut prendre de quelques minutes à 24 heures.
